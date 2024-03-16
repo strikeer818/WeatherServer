@@ -20,7 +20,8 @@ public partial class City
 
     [Column("longitude")]
     [StringLength(10)]
-    public string Longitude { get; set; } = null!;
+    //public string Longitude { get; set; } = NULL;
+    public decimal Longitude { get; set; } 
 
     [Column("CountryID")]
     public int CountryId { get; set; }
